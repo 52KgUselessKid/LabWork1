@@ -49,7 +49,7 @@ public class Main {
         int l = 1;
 
         for(double[] n : m) for(double t : n){
-            System.out.printf("%.5f ", t);
+            System.out.printf("%7.5f ", t);
             if(l % 12 == 0) System.out.println();
             l++;}
     }
